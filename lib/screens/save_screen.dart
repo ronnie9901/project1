@@ -46,7 +46,6 @@ class SavedTodosScreen extends StatelessWidget {
               child: Card(
                 color: todoController.isDarkTheme.value
                     ? Colors.grey[850] // Dark theme background color for cards
-
                     : Colors.white, // Light theme background color for cards
                 child: ListTile(
                   title: Text(
